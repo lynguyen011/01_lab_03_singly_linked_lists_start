@@ -1,0 +1,7 @@
+﻿  AnyList.cpp
+  Functions.cpp
+  Main.cpp
+  Generating Code...
+  AnyList.obj : /DEBUG:FASTLINK is not supported when managed code is present; restarting link with /DEBUG:FULL
+  Project.vcxproj -> C:\Users\lyngu_000\Desktop\01_lab_03_singly_linked_lists_start\x64\Debug\Project.exe
+  Project.vcxproj -> C:\Users\lyngu_000\Desktop\01_lab_03_singly_linked_lists_start\x64\Debug\Project.pdb (Partial PDB)
