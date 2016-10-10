@@ -1,5 +1,5 @@
 /*
-	Name header
+Name header
 */
 
 #include "AnyList.h"
@@ -21,27 +21,30 @@ bool AnyList::haveThree() const
 		bool found = false;
 		while (temp != nullptr && !found)
 		{
-			if (temp->getData() == 3) 
+
+			if (temp->getData() == 3)
 			{
-				if (countThree == 3)
-				{
-					found = true;
-				}
 				// We are at the end dont check temp->next
-				if (temp->getPtrToNext() == nullptr)
+				if (temp->getPtrToNext() == NULL)
 				{
 					++countThree;
 				}
 				// we are at the beginning or in the middle
-				else if(temp->getPtrToNext()->getData() != 3)
+				else if (temp->getPtrToNext()->getData() != 3)
 				{
 					++countThree;
 				}
-				
-			}			
+
+			}
+
 			temp = temp->getPtrToNext();
+
 		}
-		
+		if (countThree == 3)
+		{
+			found = true;
+		}
+
 		return found;
 	}
 }
